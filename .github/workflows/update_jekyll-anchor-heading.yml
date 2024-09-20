@@ -18,12 +18,12 @@ jobs:
           repo: jekyll-anchor-headings
           excludes: prerelease, draft
 
-      - name: Update jekyll-anchor-headings
-        id: update
-        uses: suisei-cn/actions-download-file@v1.3.0
-        with:
-          url: "https://github.com/allejo/jekyll-anchor-headings/releases/download/${{ steps.latest-release.outputs.release }}/anchor_headings.html"
-          target: _includes/vendor/
+      # - name: Update jekyll-anchor-headings
+      #   id: update
+      #   uses: suisei-cn/actions-download-file@v1.3.0
+      #   with:
+      #     url: "https://github.com/allejo/jekyll-anchor-headings/releases/download/${{ steps.latest-release.outputs.release }}/anchor_headings.html"
+      #     target: _includes/vendor/
 
       - name: Create PR
         uses: peter-evans/create-pull-request@v4
