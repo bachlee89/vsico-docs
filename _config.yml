@@ -16,7 +16,7 @@
 title: Vsico Documentation
 description: A Jekyll theme for documentation
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bachlee89.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bachlee89.github.io/vsico-docs" # the base hostname & protocol for your site, e.g. http://example.com
 repository: bachlee89/vsico-docs # for github-metadata
 logo: "/assets/images/logo-vsico.png"
 favicon_ico: "/assets/images/favicon.jpg"
